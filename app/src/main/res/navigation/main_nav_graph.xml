@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.fastnotes.ui.fragments.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_createNoteFragment"
+            app:destination="@id/createNoteFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/createNoteFragment"
+        android:name="com.fastnotes.ui.fragments.CreateNoteFragment"
+        android:label="CreateNoteFragment">
+        <action
+            android:id="@+id/action_createNoteFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="note"
+            android:defaultValue="@null"
+            app:argType="com.fastnotes.entiteis.Note"
+            app:nullable="true" />
+    </fragment>
+
+
+</navigation>

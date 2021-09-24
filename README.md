@@ -3,7 +3,7 @@ Note taking app
 
 
 # Used Tech
-Kotlin
+. Kotlin
 MVVM
 Room
 LiveData

@@ -8,4 +8,6 @@ Note taking app
 - Room
 - LiveData
 - ViewModel
+- Hilt
+- Navigation 
 

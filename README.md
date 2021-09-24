@@ -1,2 +1,11 @@
 # FastNotes
-#What is this project?
+Note taking app
+
+
+# Used Tech
+Kotlin
+MVVM
+Room
+LiveData
+ViewModel
+

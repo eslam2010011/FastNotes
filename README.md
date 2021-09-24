@@ -3,9 +3,9 @@ Note taking app
 
 
 # Used Tech
-. Kotlin
-MVVM
-Room
-LiveData
-ViewModel
+- Kotlin
+- MVVM
+- Room
+- LiveData
+- ViewModel
 
